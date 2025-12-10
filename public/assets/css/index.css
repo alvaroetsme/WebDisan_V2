@@ -1,0 +1,317 @@
+body{
+  margin: 0;
+  font-family: var(--font-main);
+  font-weight: normal;
+}
+
+/* BOTONES */
+.btn{
+  font-family: inherit;
+  font-size: 18px;
+  margin-top: 15px;
+  padding: 0.5rem 2rem;
+  color: whitesmoke;
+  border: none;
+  outline: none;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+/* CARRUSEL */
+.carousel{
+  position:relative;
+  height:80vh;            /* alto visible del hero */
+  min-height:420px;
+  width:100%;
+  overflow:hidden;
+  color:#fff;
+}
+
+.carousel-slides{ height:100%; }
+.carousel-slide{
+  margin: 0;
+  position:absolute; inset:0;
+  opacity:0; transition:opacity .6s ease;
+
+}
+.carousel-slide.is-active{ opacity:1; }
+
+.carousel img{
+  width:100%; height:100%;
+  object-fit:cover; display:block;
+}
+
+.caption{
+  margin: 0px 100px 0 110;
+}
+
+/* capa negra */
+.carousel .overlay{
+  position:absolute; inset:0;
+  background:linear-gradient(180deg, rgba(0,0,0,.45), rgba(0,0,0,.25) 50%, rgba(0,0,0,.55));
+  pointer-events:none;
+}
+
+.carousel .caption{
+  z-index: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  position:absolute; left:50%; transform:translateX(-50%);
+  bottom:14vh; width:min(92%, 1700px);
+  text-shadow:0 2px 8px rgba(0,0,0,.35);
+}
+.carousel .caption h2{ margin:0 0 8px; font-size:clamp(26px, 5vw, 48px); font-weight:800;}
+.carousel .caption p{ margin:0; font-size:clamp(14px, 2.2vw, 18px); opacity:.95; }
+
+/* Flechas */
+.carousel-nav{
+  padding: 0;
+  position:absolute; top:50%;
+  width:44px; height:44px; border-radius:50%;
+  border:0; cursor:pointer; color:#fff; font-size:26px;
+  padding-bottom: 5px;
+  background:rgba(0,0,0,.35);
+}
+.carousel-nav:hover{ background:rgba(0,0,0,.55); }
+.carousel-nav.prev{ left:16px; }
+.carousel-nav.next{ right:16px; }
+
+/* Dots */
+.carousel-dots{
+  
+  position:absolute; left:50%; transform:translateX(-50%);
+  bottom:18px; display:flex; gap:8px;
+}
+.carousel-dots button{
+  padding: 0;
+  width:12px; height:11.5px; border-radius:50%; border:0; cursor:pointer;
+  background:rgba(255,255,255,.45);
+}
+.carousel-dots button.is-active{ background:#fff; }
+
+/* Si usas header transparente fijo, evita que tape el hero cuando hagas scroll del resto */
+main.container{ max-width:1100px; margin:80px auto; padding:0 16px; }
+
+.info-img{
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#img_info1{
+  width: 80%;
+  height: auto;
+  border-radius: 100% 0 100% 100%;
+  /* align-self: center; */
+}
+
+#img_info2{
+  position: absolute;
+  right: 0%;
+  bottom: -10%;
+  width: 60%;
+  border-radius: 30px;
+  height: auto;
+  /* align-self: flex-end; */
+}
+
+/* CERTIFICADOS */
+.certificados{
+  padding: 5% 10%;
+  background-color: #0890C9;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.bloque{
+  display: flex;
+  justify-content: space-between;
+}
+
+.certificados span{
+  color: whitesmoke;
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 20px;
+
+}
+
+.certification-block{
+  display: flex;
+  border-radius: 30px;
+  background-color: #ffffff;
+  width: 40%;
+  padding: 10px 30px;
+  align-items: center;
+}
+
+.caption{
+  display: flex;
+  flex-direction: column;
+}
+
+.caption h3{
+  font-size: 24px;
+}
+
+
+/* FORMULARIO */
+
+/* .formulario{
+  background-color: #133453;
+  display: flex;
+  justify-content: center;
+  padding: 40px 0;
+} */
+
+.contacto_wrap{
+  width: 100%;
+  border-radius: 30px;
+  background-color: linear-gradient(160deg, #d9f0ff 0%, #eaf7ff 35%, #ffffff 70%, #e8f4fb 100%);
+  margin: 0px;
+  padding: 80px 0px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.contacto_info .contacto__wa-texto{
+  color: black;
+}
+
+.eyebrow{
+  margin-bottom: 0px;
+  color: #44BDE2;
+  font-weight: bold;
+}
+
+.contacto_info .title{
+  font-size: 32px;
+  margin-top: 0;
+}
+
+.contacto_datos li{
+  margin-bottom: 10px;
+  list-style: none;
+}
+
+/* inputs */
+
+.contacto__form{
+  width: 30%;
+}
+
+.contacto__form input, textarea{
+  font-family: inherit;
+  padding: 7px;
+  border-radius: 15px;
+  height: 35px;
+  width: 250px;
+  outline: none;
+  border: 1px solid rgb(0, 0, 0, 0.5);
+  box-shadow: 2px 2px 2px rgb(0, 0, 0, 0.5);
+}
+
+.contacto__form textarea{
+  resize: none;
+  width: 330px;
+  height: 100px;
+}
+
+.contacto__form .field{
+  margin-bottom: 20px;
+}
+
+
+/* SECCIÓN INFO */
+
+.info{
+  padding: 120px 0;
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+}
+
+.info_block{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  width: 40%;
+}
+
+.info_block span{
+  color: #829ab1;
+}
+
+.info_block h3{
+  margin: 0;
+  color: #0f2a43;
+  font-size: 60px;
+}
+
+.info_block p{
+  color: #0f2a43;
+}
+
+.info_buttons{
+  display: flex;
+  gap: 20px;
+}
+
+/* GALERÍA */
+
+.galeria {
+  height: 540px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(2, 50%);
+}
+
+.producto-card{
+  height: 100%;
+}
+
+.galeria img{
+  object-fit: cover;
+  height: 100%;
+  width: 100%;
+}
+
+/* Hace que la imagen de la izquierda abarque todo el lado izquierdo */
+.e1{
+  background-color: rgb(179, 34, 169);
+  grid-column: 1/3;
+  grid-row: 1/3;
+}
+
+#correo{
+  color: #003A78;             /* azul oscuro corporativo */
+  font-weight: 600;
+  text-decoration: none;
+  position: relative;
+  padding-bottom: 2px;
+  transition: color 0.25s ease;
+}
+
+#correo::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 0;
+  height: 2px;
+  background: #27B4E5;        /* celeste DISAN */
+  transition: width 0.25s ease;
+}
+
+.consentimiento{
+  color: #757575;
+  font-size: 12px;
+  margin-bottom: 15px;
+}
+
+.contacto__form .field--full{
+  margin-bottom: 2px;
+}

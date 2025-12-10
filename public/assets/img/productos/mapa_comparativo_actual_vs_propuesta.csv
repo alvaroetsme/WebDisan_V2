@@ -1,0 +1,120 @@
+archivo_actual,propuesta_nueva,nota
+Bolsas.html,public/pages/productos/Bolsas.php,
+CatalogoAccesorios.html,public/pages/catalogos/CatalogoAccesorios.php,
+CatalogoBolyLam.html,public/pages/catalogos/CatalogoBolyLam.php,
+CatalogoCobertores.html,public/pages/catalogos/CatalogoCobertores.php,
+CatalogoDuctos.html,public/pages/catalogos/CatalogoDuctos.php,
+CatalogoMantas.html,public/pages/catalogos/CatalogoMantas.php,
+CatalogoOtros.html,public/pages/catalogos/CatalogoOtros.php,
+CatalogoPolietileno.html,public/pages/catalogos/CatalogoPolietileno.php,
+CatalogoPolipropileno.html,public/pages/catalogos/CatalogoPolipropileno.php,
+CatalogoPolytarp.html,public/pages/catalogos/CatalogoPolytarp.php,
+CatalogoRollos.html,public/pages/catalogos/CatalogoRollos.php,
+CatalogoRollyMang.html,public/pages/catalogos/CatalogoRollyMang.php,
+Certificaciones.html,public/pages/institucional/Certificaciones.php,
+Cobertor.html,public/pages/productos/Cobertor.php,
+Conocenos.html,public/pages/institucional/Conocenos.php,
+Laminas.html,public/pages/productos/Laminas.php,
+Mangas.html,public/pages/productos/Mangas.php,
+Mantas.html,public/pages/productos/Mantas.php,
+MisionVision.html,public/pages/institucional/MisionVision.php,
+PageConstruction.html,public/pages/otros/PageConstruction.html,
+PoliticasCalidad.html,public/pages/institucional/PoliticasCalidad.php,
+Productos.html,public/pages/productos/Productos.php,
+SpryAssets/SpryMenuBar.js,public/assets/js/SpryMenuBar.js,
+SpryAssets/SpryMenuBarVertical.css,public/assets/css/SpryMenuBarVertical.css,
+Tubos.html,public/pages/productos/Tubos.php,
+contactenos - copia.html,public/pages/contacto/contactenos - copia.php,Archivo extra / de prueba — revisar si conservar o mover a /db/backups/
+contactenos.html,public/pages/contacto/contactenos.php,
+contacto.php,public/pages/contacto/contacto.php,
+contacto2.php,public/pages/contacto/contacto2.php,
+css/Lumina_style.css,public/assets/css/Lumina_style.css,Archivo estático ubicado en carpeta técnica — mover a /public/assets/
+css/accordionmenu.css,public/assets/css/accordionmenu.css,Archivo estático ubicado en carpeta técnica — mover a /public/assets/
+css/jquery.fancybox63b9.css,public/assets/css/jquery.fancybox63b9.css,Archivo estático ubicado en carpeta técnica — mover a /public/assets/
+css/menu.html,public/assets/css/menu.html,Archivo estático ubicado en carpeta técnica — mover a /public/assets/
+css/revstyle.css,public/assets/css/revstyle.css,Archivo estático ubicado en carpeta técnica — mover a /public/assets/
+css/screen_layout_large.css,public/assets/css/screen_layout_large.css,Archivo estático ubicado en carpeta técnica — mover a /public/assets/
+css/screen_layout_medium.css,public/assets/css/screen_layout_medium.css,Archivo estático ubicado en carpeta técnica — mover a /public/assets/
+css/screen_layout_normal.css,public/assets/css/screen_layout_normal.css,Archivo estático ubicado en carpeta técnica — mover a /public/assets/
+css/screen_layout_small.css,public/assets/css/screen_layout_small.css,Archivo estático ubicado en carpeta técnica — mover a /public/assets/
+css/screen_layout_xlarge.css,public/assets/css/screen_layout_xlarge.css,Archivo estático ubicado en carpeta técnica — mover a /public/assets/
+css/screen_styles.css,public/assets/css/screen_styles.css,Archivo estático ubicado en carpeta técnica — mover a /public/assets/
+css/screen_styles_od.css,public/assets/css/screen_styles_od.css,Archivo estático ubicado en carpeta técnica — mover a /public/assets/
+css/search_styles.css,public/assets/css/search_styles.css,Archivo estático ubicado en carpeta técnica — mover a /public/assets/
+css/validationEngine.jquery.css,public/assets/css/validationEngine.jquery.css,Archivo estático ubicado en carpeta técnica — mover a /public/assets/
+csssyntax-plugin/shBrushCss.html,public/pages/otros/shBrushCss.html,
+deepseek_html_20250926_cacd3a.html,public/pages/otros/deepseek_html_20250926_cacd3a.html,Archivo extra / de prueba — revisar si conservar o mover a /db/backups/
+error404.html,public/pages/otros/error404.html,
+formulario.html,public/pages/contacto/formulario.php,
+index.html,public/index.php,
+index2.html,public/index.php,Archivo extra / de prueba — revisar si conservar o mover a /db/backups/
+index3.html,public/index.php,Archivo extra / de prueba — revisar si conservar o mover a /db/backups/
+index__.html,public/index.php,
+infophp.php,public/pages/otros/infophp.php,
+javascripts/common.js,public/assets/js/common.js,
+javascripts/gmap3.min.js,public/assets/js/gmap3.min.js,
+javascripts/jquery-1.8.3.min.js,public/assets/js/jquery-1.8.3.min.js,
+javascripts/jquery.fittext.js,public/assets/js/jquery.fittext.js,
+javascripts/jquery.flexslider-min.js,public/assets/js/jquery.flexslider-min.js,
+javascripts/jquery.gmap-1.1.0-min.html,public/pages/otros/jquery.gmap-1.1.0-min.html,
+javascripts/jquery.prettyPhoto.js,public/assets/js/jquery.prettyPhoto.js,
+javascripts/jquery.validate.min.js,public/assets/js/jquery.validate.min.js,
+javascripts/jquery.zweatherfeed.js,public/assets/js/jquery.zweatherfeed.js,
+javascripts/mosaic.1.0.1.min.js,public/assets/js/mosaic.1.0.1.min.js,
+javascripts/zebra_datepicker.js,public/assets/js/zebra_datepicker.js,
+js jscript javascriptsyntax-plugin/shBrushJScript.html,public/pages/otros/shBrushJScript.html,
+js/activate-revolution-slider.js,public/assets/js/activate-revolution-slider.js,Archivo estático ubicado en carpeta técnica — mover a /public/assets/
+js/ani/jquery-ui.js,public/assets/js/ani/jquery-ui.js,Archivo estático ubicado en carpeta técnica — mover a /public/assets/
+js/ani/modernizr.js,public/assets/js/ani/modernizr.js,Archivo estático ubicado en carpeta técnica — mover a /public/assets/
+js/functions.js,public/assets/js/functions.js,Archivo estático ubicado en carpeta técnica — mover a /public/assets/
+js/helper-plugins/jquery.mousewheel.min.js,public/assets/js/helper-plugins/jquery.mousewheel.min.js,Archivo estático ubicado en carpeta técnica — mover a /public/assets/
+js/helper-plugins/jquery.touchSwipe.min.js,public/assets/js/helper-plugins/jquery.touchSwipe.min.js,Archivo estático ubicado en carpeta técnica — mover a /public/assets/
+js/jquery-1.7.2.min.js,public/assets/js/jquery-1.7.2.min.js,Archivo estático ubicado en carpeta técnica — mover a /public/assets/
+js/jquery.carouFredSel-6.1.0-packed.js,public/assets/js/jquery.carouFredSel-6.1.0-packed.js,Archivo estático ubicado en carpeta técnica — mover a /public/assets/
+js/jquery.fancybox.start.js,public/assets/js/jquery.fancybox.start.js,Archivo estático ubicado en carpeta técnica — mover a /public/assets/
+js/jquery.fancybox63b9.js,public/assets/js/jquery.fancybox63b9.js,Archivo estático ubicado en carpeta técnica — mover a /public/assets/
+js/jquery.gmap.min.js,public/assets/js/jquery.gmap.min.js,Archivo estático ubicado en carpeta técnica — mover a /public/assets/
+js/jquery.isotope.min.js,public/assets/js/jquery.isotope.min.js,Archivo estático ubicado en carpeta técnica — mover a /public/assets/
+js/jquery.jsonSuggest-2.js,public/assets/js/jquery.jsonSuggest-2.js,Archivo estático ubicado en carpeta técnica — mover a /public/assets/
+js/jquery.tipsy.js,public/assets/js/jquery.tipsy.js,Archivo estático ubicado en carpeta técnica — mover a /public/assets/
+js/jquery.tweet.js,public/assets/js/jquery.tweet.js,Archivo estático ubicado en carpeta técnica — mover a /public/assets/
+js/jquery.validationEngine-en.js,public/assets/js/jquery.validationEngine-en.js,Archivo estático ubicado en carpeta técnica — mover a /public/assets/
+js/jquery.validationEngine.js,public/assets/js/jquery.validationEngine.js,Archivo estático ubicado en carpeta técnica — mover a /public/assets/
+js/login.js,public/assets/js/login.js,Archivo estático ubicado en carpeta técnica — mover a /public/assets/
+js/menu.js,public/assets/js/menu.js,Archivo estático ubicado en carpeta técnica — mover a /public/assets/
+js/organictabs.jquery.js,public/assets/js/organictabs.jquery.js,Archivo estático ubicado en carpeta técnica — mover a /public/assets/
+js/respond.src.js,public/assets/js/respond.src.js,Archivo estático ubicado en carpeta técnica — mover a /public/assets/
+js/scroll/behaviors/manual-trigger.html,public/assets/js/scroll/behaviors/manual-trigger.html,Archivo estático ubicado en carpeta técnica — mover a /public/assets/
+js/scroll/debug.js,public/assets/js/scroll/debug.js,Archivo estático ubicado en carpeta técnica — mover a /public/assets/
+js/scroll/jquery.infinitescroll.js,public/assets/js/scroll/jquery.infinitescroll.js,Archivo estático ubicado en carpeta técnica — mover a /public/assets/
+js/searchData/testData.js,public/assets/js/searchData/testData.js,Archivo estático ubicado en carpeta técnica — mover a /public/assets/
+js/ticker00.js,public/assets/js/ticker00.js,Archivo estático ubicado en carpeta técnica — mover a /public/assets/
+js/tinynav.min.js,public/assets/js/tinynav.min.js,Archivo estático ubicado en carpeta técnica — mover a /public/assets/
+js/tooltip.js,public/assets/js/tooltip.js,Archivo estático ubicado en carpeta técnica — mover a /public/assets/
+js/tweet/jquery.tweetAction.js,public/assets/js/tweet/jquery.tweetAction.js,Archivo estático ubicado en carpeta técnica — mover a /public/assets/
+js/tweet/script.js,public/assets/js/tweet/script.js,Archivo estático ubicado en carpeta técnica — mover a /public/assets/
+menu.html,public/pages/otros/menu.html,
+portfolio4col.html,public/pages/otros/portfolio4col.html,
+prueba1.php,public/pages/otros/prueba1.php,Archivo extra / de prueba — revisar si conservar o mover a /db/backups/
+rs-plugin/css/settings.css,public/assets/css/settings.css,
+rs-plugin/js/jquery.themepunch.plugins.min.js,public/assets/js/jquery.themepunch.plugins.min.js,
+rs-plugin/js/jquery.themepunch.revolution.min.js,public/assets/js/jquery.themepunch.revolution.min.js,
+sendbymail.php,public/pages/contacto/sendbymail.php,
+styles.css,public/assets/css/styles.css,
+stylesheets/base.css,public/assets/css/base.css,
+stylesheets/flexslider.css,public/assets/css/flexslider.css,
+stylesheets/fonts.css,public/assets/css/fonts.css,
+stylesheets/layout.css,public/assets/css/layout.css,
+stylesheets/mosaic.css,public/assets/css/mosaic.css,
+stylesheets/prettyPhoto.css,public/assets/css/prettyPhoto.css,
+stylesheets/skeleton.css,public/assets/css/skeleton.css,
+stylesheets/zebra_datepicker_metallic.css,public/assets/css/zebra_datepicker_metallic.css,
+syntax-plugin/XRegExp.js,public/assets/js/XRegExp.js,
+syntax-plugin/shAutoloader.js,public/assets/js/shAutoloader.js,
+syntax-plugin/shBrushCss.js,public/assets/js/shBrushCss.js,
+syntax-plugin/shBrushJScript.js,public/assets/js/shBrushJScript.js,
+syntax-plugin/shBrushXml.js,public/assets/js/shBrushXml.js,
+syntax-plugin/shCore.css,public/assets/css/shCore.css,
+syntax-plugin/shCore.js,public/assets/js/shCore.js,
+syntax-plugin/shThemeDefault.css,public/assets/css/shThemeDefault.css,
+xml xhtml xslt htmlsyntax-plugin/shBrushXml.html,public/pages/otros/shBrushXml.html,

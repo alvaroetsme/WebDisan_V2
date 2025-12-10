@@ -1,106 +1,192 @@
-.header {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    z-index: 1000;
-    background: transparent;
-    padding: 0px 20px;
-    height: 80px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+:root{
+  --header-h: 72px;
 }
 
-.nombre-empresa{
-    font-size: clamp(26px, 6vw, 32px);
-    line-height: 1.2;
-    font-weight: bold;
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: var(--font-main);
 }
 
-.logo{
-    display: flex;
-    gap: 1em;
-    align-items: center;
-}
-
-header img{
-    height: auto;
-    max-height: 56px;
-}
-
-/* BOTÓN BURGER */
-.burger {
-  width: 40px;
-  height: 24px;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  background: none;
-  border: none;
-  cursor: pointer;
-  z-index: 1100;
-}
-
-.burger span {
-  height: 3px;
-  width: 100%;
-  background: whitesmoke;
-  border-radius: 2px;
-  transition: 0.3s ease;
-}
-
-/* ESTADO ABIERTO */
-.burger.active span:nth-child(1) {
-  transform: rotate(45deg) translate(10px, 15px);
-}
-
-.burger.active span:nth-child(2) {
-  opacity: 0;
-}
-
-.burger.active span:nth-child(3) {
-  transform: rotate(-45deg) translateY(-6px) translateX(-2px);
-}
-
-.menu{
-  position: fixed;
+/* Estado por defecto que ya usabas en home */
+.encabezado.encabezado--transparent{
+  position: absolute; /* encima del carrusel */
+  inset-inline: 0;
   top: 0;
-  right: -100%;
-  width: 100%;
-  max-width: 90%;
-  height: 100vh;
-  background: #0d2b45;
-  transition: 0.4s ease;
+  z-index: 9;
+  background: transparent;
+  border-bottom: none;
+  color: #fff; /* si tu nav es blanco sobre el carrusel oscuro */
+}
+
+/* Variante sólida para páginas internas */
+.encabezado.encabezado--solid{
+  position: sticky;  /* queda pegado arriba al hacer scroll */
+  top: 0;
+  z-index: 9;
+  background-image: linear-gradient(135deg, var(--accent) 0%, var(--dark) 100%);
+  -webkit-backdrop-filter: saturate(180%) blur(8px);
+  backdrop-filter: saturate(180%) blur(8px);
+  color: #121417;
+}
+
+/* Separación del contenido cuando el header ya no es absoluto */
+.page--inner main{ 
+  padding-top: var(--header-h);
+}
+
+/* Asegura contraste en enlaces del nav cuando es sólido */
+.encabezado--solid .main-nav a{
+  color: white;
+}
+.encabezado--solid .main-nav a:hover{
+  opacity: .75;
+}
+
+/* Si tu botón del header era blanco/transparente en el home,
+   dale una versión sólida para páginas internas */
+.encabezado--solid button{
+  background: var(--bg-gradient);
+  color:#fff;
+  border:1px solid transparent;
+}
+
+
+.encabezado{
+  gap: 30px;
+  padding: 0.2rem 1rem;
+  align-items: center;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  /* width: 100%; */
+  position: absolute;
+  z-index: 1;
+}
+
+.main-nav{
+  font-size: 18px;
+  font-weight: 500;
   display: flex;
   align-items: center;
-  justify-content: center;
 }
 
-.menu.active {
-  right: 0;
+.main-nav ul{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  list-style: none;
+  padding: 0 40px;
 }
 
-header .header-lista{
-  position: absolute;
-  top: 80px;
+.main-nav li{
+  text-align: center;
+  width: 150px;
 }
 
-.header-lista a{
-  width: 100%;
-  padding: .6em .5em;
-  font-size: 18px;
-  line-height: 2;
-  font-family: var(--fuente);
-  font-weight: 600;
-  display: block;
+.logo-header a{
+  font-weight: bold;
+  font-size: 24px;
+  display: flex;
+  align-items: center;
+}
+
+.encabezado a{
+  font-weight: bold;
   text-decoration: none;
   color: white;
-  border-bottom: 1px solid rgba(255,255,255,0.1);
 }
 
-.header ul{
-  padding: 0 1.5em 1.5em;
-  width: 100%;
-  list-style: none;
+.main-nav a:hover{
+  color: var(--bg-gradient);
+}
+
+.encabezado button{
+  max-height: 49.6px;
+  align-items: center;
+  display: flex;
+  outline: none;
+  cursor: pointer;
+  border: none;
+  padding: 0.9rem 2rem;
+  font-size: inherit;
+  position: relative;
+  letter-spacing: 0.05rem;
+  font-weight: 700;
+  font-size: 17px;
+  border-radius: 500px 0px 500px 500px;
+  overflow: hidden;
+  background: ghostwhite;
+  color: ghostwhite;
+ /* border-top-right-radius: 0px; */
+}
+
+.encabezado button span {
+ position: relative;
+ z-index: 9;
+ transition: color 0.4s;
+}
+
+.encabezado button:hover span {
+ color: #133453;
+}
+
+.encabezado button::before,
+.encabezado button::after {
+ position: absolute;
+ top: 0;
+ left: 0;
+ width: 100%;
+ height: 100%;
+ z-index: 0;
+}
+
+.encabezado button::before {
+ content: "";
+ background: var(--bg-gradient);
+ width: 120%;
+ left: -10%;
+ transform: skew(30deg);
+ transition: transform 0.4s cubic-bezier(0.3, 1, 0.8, 1);
+}
+
+.encabezado button:hover::before {
+ transform: translate3d(100%, 0, 0);
+}
+
+
+/* Menú hamburguesa */
+
+header .hamburguesa{
+  display: none;
+}
+
+@media screen and (max-width: 550px) {
+
+  /* header .hamburguesa{
+    display: block;
+  }
+
+  .main-nav{
+    display: none;
+  } */
+  header{
+    height: 100%;
+  }
+  header .main-nav{
+    z-index: 10;
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 1rem;
+    background-color: #121417;
+  }
+
+  .main-nav ul{
+    padding: 0;
+    flex-direction: column;
+    align-items: end;
+  }
 }
