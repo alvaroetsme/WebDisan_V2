@@ -1,0 +1,106 @@
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+    background: transparent;
+    padding: 0px 20px;
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nombre-empresa{
+    font-size: clamp(26px, 6vw, 32px);
+    line-height: 1.2;
+    font-weight: bold;
+}
+
+.logo{
+    display: flex;
+    gap: 1em;
+    align-items: center;
+}
+
+header img{
+    height: auto;
+    max-height: 56px;
+}
+
+/* BOTÓN BURGER */
+.burger {
+  width: 40px;
+  height: 24px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background: none;
+  border: none;
+  cursor: pointer;
+  z-index: 1100;
+}
+
+.burger span {
+  height: 3px;
+  width: 100%;
+  background: whitesmoke;
+  border-radius: 2px;
+  transition: 0.3s ease;
+}
+
+/* ESTADO ABIERTO */
+.burger.active span:nth-child(1) {
+  transform: rotate(45deg) translate(10px, 15px);
+}
+
+.burger.active span:nth-child(2) {
+  opacity: 0;
+}
+
+.burger.active span:nth-child(3) {
+  transform: rotate(-45deg) translateY(-6px) translateX(-2px);
+}
+
+.menu{
+  position: fixed;
+  top: 0;
+  right: -100%;
+  width: 100%;
+  max-width: 90%;
+  height: 100vh;
+  background: #0d2b45;
+  transition: 0.4s ease;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.menu.active {
+  right: 0;
+}
+
+header .header-lista{
+  position: absolute;
+  top: 80px;
+}
+
+.header-lista a{
+  width: 100%;
+  padding: .6em .5em;
+  font-size: 18px;
+  line-height: 2;
+  font-family: var(--fuente);
+  font-weight: 600;
+  display: block;
+  text-decoration: none;
+  color: white;
+  border-bottom: 1px solid rgba(255,255,255,0.1);
+}
+
+.header ul{
+  padding: 0 1.5em 1.5em;
+  width: 100%;
+  list-style: none;
+}
