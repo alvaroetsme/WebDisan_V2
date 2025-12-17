@@ -1,0 +1,14 @@
+body{
+    background-color: blueviolet;
+}
+
+.carrusel{
+    width: 100%;
+    height: 430px;
+}
+
+.carrusel img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
