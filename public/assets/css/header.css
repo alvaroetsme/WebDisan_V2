@@ -9,7 +9,7 @@
 }
 
 .logo-title{
-    font-family: Montserrat, sans-serif;
+    font-family: var(--font-base);
     font-weight: 700;
     font-size: 26px;
     text-decoration: none;
@@ -126,14 +126,27 @@
     gap: 20px;
 }
 
+.nav-list li{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
 .nav-list a{
+    color: #f5f7fa;
+    font-family: var(--font-base);
+    padding: 1em 0.5em;
+    display: block;
+    width: 90%;
     font-style: normal;
     font-size: 18px;
-    font-weight: 600;
+    font-weight: 550;
     color: whitesmoke;
     text-decoration: none;
+    border-bottom: 1px solid rgba(255,255,255,0.1);
 }
 
 .nav-list li{
+    width: 100%;
     list-style-type: none;
 }

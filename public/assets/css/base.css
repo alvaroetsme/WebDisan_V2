@@ -6,6 +6,47 @@
     box-sizing: border-box;
 }
 
+/* =========================
+   CEDORA FONT (self-hosted)
+   ========================= */
+
+/* Regular */
+@font-face {
+  font-family: "Cedora";
+  src: url("../fonts/cedora/Cedora-RegularStd.woff") format("woff");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* Italic */
+@font-face {
+  font-family: "Cedora";
+  src: url("../fonts/cedora/Cedora-RegularItalicStd.woff") format("woff");
+  font-weight: 400;
+  font-style: italic;
+  font-display: swap;
+}
+
+/* Bold */
+@font-face {
+  font-family: "Cedora";
+  src: url("../fonts/cedora/Cedora-BoldStd.woff") format("woff");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* Bold Italic */
+@font-face {
+  font-family: "Cedora";
+  src: url("../fonts/cedora/Cedora-BoldItalicStd.woff") format("woff");
+  font-weight: 700;
+  font-style: italic;
+  font-display: swap;
+}
+
+
 :root{
-    --fuente: 
+    --font-base: "Cedora", Arial, sans-serif;
 }
