@@ -4,6 +4,25 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    
+}
+
+body{
+    background-color: var(--background-color);
+}
+
+:root{
+    --font-base: "Cedora", Arial, sans-serif;
+    --background-color: #f4f5f8;
+    --global-palette1: #44bde2;
+    --global-palette2: #0890c9;
+    --global-palette3: #0f2a43;
+    --global-palette4: #133453;
+    --global-palette5: #587089;
+    --global-palette6: #829ab1;
+    --global-palette7: #e0fcff;
+    --global-palette8: #f5f7fa;
+    --global-palette9: #ffffff;
 }
 
 /* =========================
@@ -13,7 +32,7 @@
 /* Regular */
 @font-face {
   font-family: "Cedora";
-  src: url("../fonts/cedora/Cedora-RegularStd.woff") format("woff");
+  src: url("../fonts/Cedora-RegularStd.woff") format("woff");
   font-weight: 400;
   font-style: normal;
   font-display: swap;
@@ -22,7 +41,7 @@
 /* Italic */
 @font-face {
   font-family: "Cedora";
-  src: url("../fonts/cedora/Cedora-RegularItalicStd.woff") format("woff");
+  src: url("../fonts/Cedora-RegularItalicStd.woff") format("woff");
   font-weight: 400;
   font-style: italic;
   font-display: swap;
@@ -31,7 +50,7 @@
 /* Bold */
 @font-face {
   font-family: "Cedora";
-  src: url("../fonts/cedora/Cedora-BoldStd.woff") format("woff");
+  src: url("../fonts/Cedora-BoldStd.woff") format("woff");
   font-weight: 700;
   font-style: normal;
   font-display: swap;
@@ -40,13 +59,8 @@
 /* Bold Italic */
 @font-face {
   font-family: "Cedora";
-  src: url("../fonts/cedora/Cedora-BoldItalicStd.woff") format("woff");
+  src: url("../fonts/Cedora-BoldItalicStd.woff") format("woff");
   font-weight: 700;
   font-style: italic;
   font-display: swap;
-}
-
-
-:root{
-    --font-base: "Cedora", Arial, sans-serif;
 }

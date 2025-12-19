@@ -24,6 +24,18 @@ define('ROOT_PATH', dirname(__DIR__));
     <div class="carrusel">
         <img src="assets/img/index/Portal_01.jpg" alt="imagen de ejemplo">
     </div>
+
+    <section class="presentacion">
+        <h6>Soluciones para industria y comercio</h6>
+        <h1>Expertos en Polietileno de baja y alta densidad.</h1>
+        <p>Más de 40 años produciendo bolsas, mangas y mantas plásticas con materiales de alta resistencia, cumpliendo los estándares de calidad más exigentes del mercado.</p>
+
+        <div class="presentacion-botones">
+            <span class="button">Solicitar Cotización</span>
+            <span class="button">Ver Nuestros Productos</span>
+        </div>
+
+    </section>
 </main>
 
 <?php include ROOT_PATH . "/app/includes/footer.php"; ?>
