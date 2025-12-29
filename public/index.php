@@ -89,7 +89,7 @@ include __DIR__ . '/../app/includes/header.php';
 
   </section>
 
-  <section class="certificados">
+  <!-- <section class="certificados">
     <span>Contamos con:</span>
     <div class="bloque">
       <div class="certification-block">
@@ -107,7 +107,7 @@ include __DIR__ . '/../app/includes/header.php';
         </div>
       </div>
     </div>
-  </section>
+  </section> -->
 
   <div class="galeria">
     <div class="producto-card e1">
