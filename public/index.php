@@ -1,15 +1,13 @@
 <?php
-  $headerVariant = 'transparent';
-  $title = "Inicio | DISAN SRL";
-  $description = "Fabricamos soluciones en empaques plásticos de alta calidad.";
-  include __DIR__ . '/../app/includes/header.php';
+$headerVariant = 'transparent';
+$title = "Inicio | DISAN SRL";
+$description = "Fabricamos soluciones en empaques plásticos de alta calidad.";
+include __DIR__ . '/../app/includes/header.php';
 ?>
 
-<link rel="stylesheet" href="/webdisan/public/assets/css/index.css">
-<link rel="stylesheet" href="/webdisan/public/assets/css/base.css">
+<link rel="stylesheet" href="/WebDisan/public/assets/css/index.css">
+<link rel="stylesheet" href="/WebDisan/public/assets/css/base.css">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-
-
 
 <main>
   <section id="carrusel-principal" class="carousel" aria-label="Imágenes de DISAN SRL">
@@ -18,7 +16,7 @@
         <img src="assets/img/Index/w-Polytar01.jpg" alt="Extrusión y soplado en DISAN SRL" loading="eager">
         <figcaption class="caption">
           <h2>MANTAS POLYTARP</h2>
-          <p>Mantas Polytarp, resistencia y confianza en cada cobertura.</p>
+          <p>Para los desafíos más exigentes, la cobertura más resistente. Mantas Polytarp: No solo protegemos, sino que permanecemos.</p>
         </figcaption>
         <div class="overlay"></div>
       </figure>
@@ -33,10 +31,10 @@
       </figure>
 
       <figure class="carousel-slide">
-        <img src="assets/img/Index/w-Cobertor01.jpg" alt="Mantas Polytarp de alta resistencia" loading="lazy">
+        <img src="assets/img/Index/w-Cobertor01.webp" alt="Mantas Polytarp de alta resistencia" loading="lazy">
         <figcaption class="caption">
           <h2>COBERTORES DE POLIPROPILENO</h2>
-          <p>Diseñada para proteger tus cultivos de los dañinos áfidos de manera eficaz y ecológica.</p>
+          <p>Nuestros cobertores rectangulares y cuadrados de polipropileno se adaptan a la forma de tu carga. Porque la protección perfecta no es una talla única, es un ajuste exacto.</p>
         </figcaption>
         <div class="overlay"></div>
       </figure>
@@ -45,16 +43,16 @@
         <img src="assets/img/Index/w-Ductos.jpg" alt="Mantas Polytarp de alta resistencia" loading="lazy">
         <figcaption class="caption">
           <h2>MALLA ANTIÁFIDOS</h2>
-          <p>Diseñada para proteger tus cultivos de los dañinos áfidos de manera eficaz y ecológica.</p>
+          <p>Expertos en cobertura y protección. Lo sólido, cubierto. La amenaza, filtrada.</p>
         </figcaption>
         <div class="overlay"></div>
       </figure>
 
       <figure class="carousel-slide">
-        <img src="assets/img/Index/w-Rollos02.WEBP" alt="Mantas Polytarp de alta resistencia" loading="lazy">
+        <img src="assets/img/Index/w-Rollos02.jpeg" alt="Mantas Polytarp de alta resistencia" loading="lazy">
         <figcaption class="caption">
           <h2>FÁBRICA DE BOLSAS PLÁSTICAS</h2>
-          <p>Somos una fábrica de bolsas plásticas en Perú, llevamos años en la industria brindando  soluciones con bolsas prácticas, resistentes y hechas a medida. Disponemos de una infraestructura sólida, personal competente y una dedicación incesante a la calidad.</p>
+          <p>Somos una fábrica de bolsas plásticas en Perú, llevamos años en la industria brindando soluciones con bolsas prácticas, resistentes y hechas a medida. Disponemos de una infraestructura sólida, personal competente y una dedicación incesante a la calidad.</p>
         </figcaption>
         <div class="overlay"></div>
       </figure>
@@ -73,7 +71,8 @@
 
     <div class="info_block">
       <div>
-        <span>Soluciones que elevan tu industria y comercio: rollos PEBD y PEAD, mantas Polytarp, cobertores de polipropileno y ductos de ventilación, con calidad y resistencia para proteger y potenciar tu negocio.</span>
+        <span>Soluciones industriales en empaques y coberturas plásticas.Fabricamos bolsas y rollos de PEBD y PEAD, además de mantas y cobertores Polytarp, cumpliendo altos estándares de calidad para garantizar protección, eficiencia y desempeño.</span>
+
         <H3>Expertos en Polietileno de baja y alta densidad.</H3>
       </div>
       <p>Más de 40 años produciendo bolsas, mangas y mantas plásticas con materiales de alta resistencia, cumpliendo los estándares de calidad más exigentes del mercado.</p>
@@ -84,8 +83,8 @@
     </div>
 
     <div class="info_block info-img">
-      <img id="img_info1" src="assets/img/bolsas_a.png">
-      <img id="img_info2" src="assets/img/manta.png">
+      <img id="img_info1" src="assets/img/Index_Manta.png">
+      <img id="img_info2" src="assets/img/Index_Bolsa01.jpeg">
     </div>
 
   </section>
@@ -94,14 +93,14 @@
     <span>Contamos con:</span>
     <div class="bloque">
       <div class="certification-block">
-        <img src="assets/img/iso.png" height="180px">
+        <img src="assets/img/Index_Iso.png" height="180px">
         <div class="caption">
           <h3>Certificación ISO 9001</h3>
           <p>Certifica nuestro sistema de gestión de calidad basado en la mejora continua y en el cumplimiento de requisitos normativos, asegurando consistencia en cada lote producido.</p>
         </div>
       </div>
       <div class="certification-block">
-        <img src="assets/img/341-brc-iop.png" height="180px">
+        <img src="assets/img/Index_Brc.png" height="180px">
         <div class="caption">
           <h3>Certificación BRCGS PACKAGING</h3>
           <p>Respalda nuestro compromiso con la producción segura y controlada de empaques plásticos, cumpliendo exigentes normas internacionales de higiene y trazabilidad.</p>
@@ -112,19 +111,19 @@
 
   <div class="galeria">
     <div class="producto-card e1">
-      <img src="assets/img/Index/foto3.png" alt="">
+      <img src="assets/img/Index/Index_Footer00.jpg" alt="">
     </div>
     <div class="producto-card">
-      <img class="galeria-img" src="assets/img/Index/Covertores10.png" alt="">
+      <img class="galeria-img" src="assets/img/Index/Index_Footer01.png" alt="">
     </div>
     <div class="producto-card">
-      <img src="assets/img/Index/09Setiembre21.webp" alt="">
+      <img src="assets/img/Index/Index_Footer02.jpeg" alt="">
     </div>
     <div class="producto-card">
-      <img class="galeria-img" src="assets/img/Index/Covertores06.jpg" alt="">
+      <img class="galeria-img" src="assets/img/Index/Index_Footer03.png" alt="">
     </div>
     <div class="producto-card">
-      <img src="assets/img/Index/08Agosto02.jpg" alt="">
+      <img src="assets/img/Index/Index_Footer04.jpg" alt="">
     </div>
   </div>
 
@@ -203,9 +202,9 @@
     <a href="https://wa.me/944958214" target="_blank" rel="noopener">
       <img src="../public/assets/img/icons8-whatsapp-96.png" alt="DISAN SRL" height="60" onerror="this.onerror=null;alert('No se encontró el logo')">
     </a>
-  </div>  
+  </div>
   <script src="../public/assets/js/main.js"></script>
 </main>
 <?php
-  include __DIR__ . '/../app/includes/footer.php';
+include __DIR__ . '/../app/includes/footer.php';
 ?>

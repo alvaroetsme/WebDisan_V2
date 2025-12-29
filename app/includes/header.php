@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -39,13 +40,12 @@
       </ul>
     </nav>
 
-    <!-- Botón --> 
+    <!-- Botón -->
     <button class="btn-header" onclick="document.getElementById('form-home').scrollIntoView({behavior: 'smooth'});">
-      <span>Contacto</span>
+      <span>Solicitar una Cotización</span>
     </button>
 
     <!-- <button class="hamburguesa">Abrir</button> -->
 
   </header>
 </body>
-
